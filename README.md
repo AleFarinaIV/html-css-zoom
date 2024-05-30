@@ -7,4 +7,4 @@ Riproduciamo il layout come da screenshot (che rimane il nostro riferimento prin
 1. Teniamo sempre un approccio ordinato, quindi come sempre pensiamo prima a far funzionare le macroaree, se quelle funzionano allora passiamo al dettaglio.
 2. Visto la struttura del layout, forse stavolta potrebbero tornarci utili vw e vh! ;)
 3. Per inserire delle immagini segnaposto è possibile utilizzare un servizio tipo lorem ipsum ma per le immagini, come questo: https://picsum.photos/
-4.Non perdete tempo nei dettagli: fate prima la macro struttura in blocchi colorati, poi mettete gli elementi di layout quindi il contenuto.
+4. Non perdete tempo nei dettagli: fate prima la macro struttura in blocchi colorati, poi mettete gli elementi di layout quindi il contenuto.

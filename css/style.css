@@ -5,30 +5,44 @@ html {
         box-sizing: border-box;
     }
     body {
+        background-color: black;
         font-family: Arial, sans-serif;
-        main {
+        header {
             background-color: black;
-            height: 100vh;
+            height: 50px;
+            text-align: right;
+            /* position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0; */
+            button {
+                margin: 3px;
+                background-color: rgba(119,119,119, 78%);
+                color: white;
+                border: 0;
+                border-radius: 5px;
+                padding: 3px;
+            }
+        }
+        main {
+            height: calc(100vh - 120px);
+            overflow-y: auto;
             .container {
-                max-width: 100%;
-                max-height: 100%;
+                max-width: 1500px;
                 margin: 0 auto;
-                .size{
-                    width: 300px;
-                    height: 200px;
-                }
                 .row {
                     display: flex;
                     flex-wrap: wrap;
-                    padding: 50px 50px 0px 50px;
+                    /* padding: 0 30px; */
                     .col {
                         width: calc(100% / 7);
                         .content {
-                            background-image: url(https://fastly.picsum.photos/id/488/200/100.jpg?hmac=Gq1m4lnWWuBrJ8aQqxTCh0bebPX1NEClpEPAxVTbpFw);
                             margin: 1px 2px 10px 1px;
-                            height: 100px;
                             position: relative;
-                            .labelRed {
+                            .img-size {
+                                width: 100%;
+                            }
+                            .label {
                                 padding: 4px 3px 3px 3px;
                                 color: black;
                                 position: absolute;
@@ -42,6 +56,10 @@ html {
                     }
                 }
             }
+        }
+        footer {
+            height: 70px;
+            background-color: darkgrey;
         }
     }
 }
